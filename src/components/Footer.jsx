@@ -11,7 +11,7 @@ function Footer() {
 				<a href="mailto:jcesar206@hotmail.com"><FaEnvelope size={20} className='hover:text-purple-600' title='Hotmail'/></a>
 				<a href="mailto:jcesary06@gmail.com"><SiGmail size={20} className='hover:text-yellow-600' title='Gmail'/></a>
 			</div>
-			<p className="text-sm font-semibold text-center">&copy; {new Date().getFullYear()} | Personal Expenses | Juls | All right reserved.</p>
+			<p className="text-sm font-semibold text-center">&copy; {new Date().getFullYear()} | Personal Expenses | Juls 🤯 | All right reserved.</p>
 		</footer>
 	);
 }
