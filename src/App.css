@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+.input {@apply w-full px-3 py-2 rounded border dark:border-gray-600 bg-white dark:bg-gray-700;}
+.btn-primary {@apply px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 cursor-pointer font-semibold;}
+.btn-secondary {@apply px-4 py-2 bg-gray-300 text-gray-800 rounded hover:bg-gray-400 dark:bg-gray-600 dark:text-white cursor-pointer font-semibold;}
