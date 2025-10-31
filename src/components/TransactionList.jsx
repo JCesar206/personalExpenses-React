@@ -24,8 +24,8 @@ function TransactionList() {
                 <span className={tx.type === 'gasto' ? 'text-red-500 font-semibold' : 'text-green-500 font-semibold'}>
                   ${tx.amount.toFixed(2)}
                 </span>
-                <button onClick={() => setEditingIndex(index)} className="text-blue-500 hover:text-blue-700 cursor-pointer">✏️</button>
-                <button onClick={() => removeTransaction(index)} className="text-red-500 hover:text-red-700 cursor-pointer">🗑️</button>
+                <button onClick={() => setEditingIndex(index)} className="text-blue-500 hover:text-blue-700 cursor-pointer" title='Editar'>✏️</button>
+                <button onClick={() => removeTransaction(index)} className="text-red-500 hover:text-red-700 cursor-pointer" title='Eliminar'>🗑️</button>
               </div>
             </div>
           )}
